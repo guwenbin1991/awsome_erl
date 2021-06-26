@@ -3,4 +3,8 @@
 -compile(export_all).
 
 main() ->
-    io:format("wenbin is great!~n").
+    io:format("Staring Main Process!~n"),
+    my_own_gen_skl:start_link().
+
+sub_process(Number) ->
+    calculate:do_fib(Number).
