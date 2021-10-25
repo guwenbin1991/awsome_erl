@@ -12,7 +12,7 @@ feibo_list(N) ->
 feibo_list(L, 0) ->
 	L;
 feibo_list(L, N) ->
-	feibo_list([ele(N)|L], N-1).
+	feibo_list([tail_fib(N)|L], N-1).
 
 ele(0) ->
 	1;
