@@ -1,0 +1,11 @@
+{"1.2.0",
+[{<<"observer_cli">>,{pkg,<<"observer_cli">>,<<"1.7.1">>},0},
+ {<<"recon">>,{pkg,<<"recon">>,<<"2.5.2">>},1}]}.
+[
+{pkg_hash,[
+ {<<"observer_cli">>, <<"C9CA1F623A3EF0158283A3C37CD7B7235BFE85927AD6E26396DD247E2057F5A1">>},
+ {<<"recon">>, <<"CBA53FA8DB83AD968C9A652E09C3ED7DDCC4DA434F27C3EAA9CA47FFB2B1FF03">>}]},
+{pkg_hash_ext,[
+ {<<"observer_cli">>, <<"4CCAFAAA2CE01B85DDD14591F4D5F6731B4E13B610A70FB841F0701178478280">>},
+ {<<"recon">>, <<"2C7523C8DEE91DFF41F6B3D63CBA2BD49EB6D2FE5BF1EEC0DF7F87EB5E230E1C">>}]}
+].
