@@ -23,7 +23,7 @@ ele(N) ->
 
 tail_fib(N) ->
 	tail_fib(N, 1, 1). 
-tail_fib(N, X, Y) when N < 3 ->
+tail_fib(N, _X, Y) when N < 3 ->
 	Y;
 tail_fib(N, X, Y) ->
 	tail_fib(N-1, Y, X+Y).
